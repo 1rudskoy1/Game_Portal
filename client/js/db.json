@@ -1,0 +1,22 @@
+{
+    "products":[
+        {
+                "id" : 1,
+                "category": "Game",
+                "title" : "Bus & Truck Simulator",
+                "subTitle": "Drive your truck or bus along the roads in a detailed environment!",
+                "description" : "Start by working for a transport company and make progress until you get your own vehicle and become autonomous! <br>Purchase your truck / trailer set from a wide variety of vehicles (including bi-trains) that faithfully reproduce reality. More vehicles will be added soon. <br>Modify your vehicles however you like, paint, wheels, taillights, suspension height and other accessories! Create your custom skin!<br>Unique system of contracts, deliver cargo or passengers to the companies / bus stations with its own trailer / bus. Get access to the map at any time, manage your routes and loads to maximize your income.<br> ",
+                "image" : "./img/Frame 29.png",
+                "action": "Download"
+        },
+        {
+            "id" : 2,
+            "category": "Video",
+                "title" : "Tik & Tok Trends 2022",
+                "subTitle": "Welcome to tiktok",
+                "description" : "Start by working for a transport company and make progress until you get your own vehicle and become autonomous! <br> and loads to maximize your income.<br> ",
+                "image" : "./img/Frame 69.png",
+                "action": "Watch"
+        }
+    ]
+}

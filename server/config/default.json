@@ -1,0 +1,4 @@
+{
+    "port": 8080,
+    "mongoUri": "mongodb+srv://admin:Zak_Dummy777@cluster0.ssniaeo.mongodb.net/?retryWrites=true&w=majority"
+}

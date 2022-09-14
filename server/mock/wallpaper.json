@@ -1,0 +1,17 @@
+[
+{
+    "_id": "1",
+    "title": "Dragon-art",
+    "img-path": "./assets/img/dragon.jpg",
+    "description" : "Корабли лавировали-лавировали и наткнулись на дракона",
+    "action": "Скачать"
+},
+{
+    "_id": "2",
+    "title": "Pussss",
+    "img-path": "./assets/img/puss.jpg",
+    "description" : "Иди в баню",
+    "action": "Скачать"
+}
+
+]
