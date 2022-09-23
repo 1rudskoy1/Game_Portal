@@ -6,16 +6,20 @@ const appsMock = require('../mock/apps.json');
 
 
 module.exports = async () =>{
-    const videos = await Videos.fing();
-
+    const videos = await Videos.find();
     if(videos.length !== videosMock.length){
         await createInitialEntity(Videos, videosMock);
     }
+    const apps = await Apps.find();
+    if(apps.length !== appsMock.length){
+        await createInitialEntity(Apps, appsMock);
+    }
 }
+
 
 async function createInitialEntity(Model, data){
     await Model.collection.drop();
-    return Videos.all(
+    return Promise.all(
         data.map(async item =>{
             try {
                 delete item._id
